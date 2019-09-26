@@ -1,4 +1,4 @@
-pygments: true
+pygments: Rouge
 permalink: /otter-pop/:year/:month/:day/:title
 markdown: rdiscount
 exclude: ['.git']
