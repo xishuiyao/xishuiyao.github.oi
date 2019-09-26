@@ -1,0 +1,116 @@
+# site name 
+#
+Õ¾Ãû³Æ prefixName :¤µ¤¯¤éÇP¤½¤Î
+siteName : xishuiyao
+
+# favicon and site master avatar 
+#Õ¾favicon and avatar input image path (the following configuration is the relative path of cdn, please fill in the full path without cdn, it is recommended to use jsdeliver to build a cdn, first download my cdn replacement The picture is OK, simple and convenient~) [Change] 
+favicon : /images/favicon.ico 
+avatar : /img/custom/avatar.jpg
+
+#Õ¾url
+url : https://sakura.hojun.cn
+
+#Õ¾½éÉÜ(»ò¸öÈË
+Ç©Ãû·û) description : Live your life with passion! With some drive!
+
+
+#¿ªÆôpjax
+pjax : 1
+
+#
+Õ¾Ê×Ò³'s announcement information notice : »¶Ó­Äú£¡£¡ 
+
+#ÀÁLoaded loading image 
+lazyloadImg : https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+
+#Õ¾²Ëµ¥ Configuration 
+menus :
+   Home : { path: /, fa: fa-fort-awesome faa-shake } 
+  Archive : { path: /archives, fa: fa-archive faa-shake, submenus: { 
+    Technology : { Path: /categories/technology/, fa: fa-code }, 
+    life : {path: /categories/life/, fa: fa-file-text-o }, 
+    resources : {path: /categories/resources/, fa: Fa-cloud-download }, 
+    thoughts : {path: /categories/ËæÏë/, fa: fa-commenting-o }, 
+    reproduced : {path: /categories/reproduced/, fa: fa-book } 
+  } } 
+  List : { path : javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
+    Book :{path: /tags/reading/, fa: fa-th-list faa-bounce }, 
+    group : {path: /bangumi/, fa: fa-film faa-vertical }, 
+    song list : {path: /music /, fa: fa-headphones }, 
+    atlas : {path: /tags/atlas/, fa: fa-photo } 
+  } } 
+  Message board : { path: /comment/, fa: fa-pencil-square-o faa -tada } 
+  Friendly account : { path: /links/, fa: fa-link faa-shake } 
+  Appreciation : { path: /donate/, fa: fa-heart faa-pulse } 
+  About : { path: /, fa: fa -leaf faa-wrench , submenus: { 
+    I? : {path: /about/, fa: fa-meetup}, 
+    Subject : {path: /theme-sakura/, fa: iconfont icon-sakura }, 
+    Lab: {path: /lab/, fa: fa-cogs }, 
+  } } 
+  Client : { path: /client/, fa: fa-android faa-vertical } 
+  RSS : { path: /atom.xml, fa: fa- Rss faa-pulse }
+
+# Home page sort type: -1: newer first,1: older first. [ 
+None ] homePageSortType : -1
+
+# Home page article shown number)
+homeArticleShown : 10
+
+#±³¾°Í¼Æ¬
+bgn : 8
+
+# startdashÃæ°åurl, title, desc img
+startdash :
+  - {url: /theme-sakura/, title: Sakura, desc: The site hexo theme, img: /img/startdash/sakura.md.png} 
+  - {url: http://space.bilibili.com/271849279, Title: Bilibili, desc: blogger's b-station video, img: /img/startdash/bilibili.jpg} 
+  - {url: /, title: hojun's masterhouse, desc: technical service, img: /img/startdash/wangshiwu .jpg}
+
+
+# Your Site Build Founded Time or DATE 
+# your site creation date 
+siteBuildingTime : 09/26/2019
+
+# Social buttons (social) url, img PC side configuration 
+social :
+   GitHub : {URL: https://github.com/xishuiyao/xishuiyao.github.oi#category-page} 
+  siNA : {URL: HTTP: //weibo.com/mashirozx?is_all=1, img: /img/social/sina.png} 
+  wangyiyun : {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/wangyiyun .png} 
+  zhihu : {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png} 
+  email : {url: http://weibo.com/mashirozx?is_all= 1, img: /img/social/email.svg} 
+  wechat : {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+
+# Social buttons (msocial) url, img  the mobile terminal configured 
+msocial :
+   GitHub : {URL: http://github.com/honjun, FA: FA-GitHub, Color: 333} 
+
+# Appreciate the QR code (where wechatSQ is appreciated for the single page of the appreciation code picture)
+donate :
+   alipay : /img/custom/donate/AliPayQR.jpg 
+  wechat : /img/custom/donate/WeChanQR.jpg 
+  wechatSQ : /img /custom/donate/WeChanSQ.jpg
+
+#Ê×Ò³ÊÓÆµµØÖ· is https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4, the configuration is as follows
+movies :
+  url : https://cdn.jsdelivr.net/gh/honjun/ hojun@1.2 
+  # multiple video separated by commas, random get. The supported formats are currently known as MP4, Flv. Others can be tried, not guaranteed to be useful 
+  name : Unbroken.mp4
+
+#ÏÂÏÂ½Çaplayer player configuration mainly change id and server these two, modify the details see [aplayer document]
+aplayer : 
+  id : 2660651585 
+  server : netease 
+  type : playlist 
+  fixed : true 
+  mini : false 
+  autoplay : false 
+  loop : all 
+  order : random 
+  preload : auto 
+  volume : 0.7 
+  mutex : true
+
+# ValineÆÀÂÛConfiguration 
+valine : true 
+v_appId : GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz 
+v_appKey : mgOpfzbkHYqU92CV4IDlAUHQ
